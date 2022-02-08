@@ -1,0 +1,116 @@
+{
+    "data": {
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hello",
+                    "How are you?",
+                    "Hi there",
+                    "Hi",
+                    "Whats up"
+                ],
+                "responses": [
+                    "Howdy Partner!",
+                    "Hello",
+                    "How are you doing?",
+                    "Greetings!",
+                    "How do you do?"
+                ]
+            },
+            {
+                "tag": "age",
+                "patterns": [
+                    "how old are you?",
+                    "when is your birthday?",
+                    "when was you born?"
+                ],
+                "responses": [
+                    "I am 19 years old",
+                    "I was born in 2001",
+                    "My birthday is December 12 and I was born in 2001"
+                ]
+            },
+            {
+                "tag": "date",
+                "patterns": [
+                    "what are you doing this weekend?",
+                    "do you want to hang out some time?",
+                    "what are your plans for this week"
+                ],
+                "responses": [
+                    "I am available all week",
+                    "I don't have any plans",
+                    "I am not busy"
+                ]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "bye",
+                    "g2g",
+                    "see ya",
+                    "adios",
+                    "cya"
+                ],
+                "responses": [
+                    "It was nice speaking to you",
+                    "See you later",
+                    "Speak soon!"
+                ]
+            },
+            {
+                "tag": "joke",
+                "patterns": [
+                    "Tell me a joke",
+                    "joke",
+                    "make me laugh",
+                    "say something funny"
+                ],
+                "responses": [
+                    "What do kids play when their mom is using the phone? Bored games.",
+                    "What is the smartest insect? A spelling bee!",
+                    "What does a storm cloud wear under his raincoat? Thunderwear.",
+                    "What did the lava say to his girlfriend? “I lava you!”",
+                    "What is Thanos favorite app on his phone? Snapchat.",
+                    "Which superhero hits home runs? Batman!"
+                ]
+            },
+            {
+                "tag": "fact",
+                "patterns": [
+                    "tell me a fact",
+                    "give me a fun fact",
+                    "say something interesting"
+                ],
+                "responses": [
+                    "It is impossible for most people to lick their own elbow. (try it!)",
+                    "A crocodile cannot stick its tongue out.",
+                    "Some lipsticks contain fish scales.",
+                    "Rubber bands last longer when refrigerated.",
+                    "A shark is the only known fish that can blink with both eyes.",
+                    "Almonds are a member of the peach family.",
+                    "Tigers have striped skin, not just striped fur."
+                    
+                ]
+            },
+            {
+                "tag": "about",
+                "patterns": [
+                    "say your name?",
+                    "what is your name?",
+                    "what are you called?",
+                    "what should I call you?",
+                    "what do people call you?"
+                ],
+                "responses": [
+                    "I am Sigma Bot",
+                    "My name is Sigma Bot, nice to meet you",
+                    "People call me Sigma Bot",
+                    "Hi, I am Sigma Bot"
+                ]
+            }
+
+        ]
+    }
+}
